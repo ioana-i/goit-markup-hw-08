@@ -1,0 +1,42 @@
+/* Regular customers section */
+.customers-section {
+  display: flex;
+}
+
+.customers-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customers-list-item {
+  margin-right: 24px;
+}
+
+.customers-logo-link {
+  text-decoration: none;
+}
+
+.customers-logo-icon {
+  fill: var(--customers-icons-color);
+  height: 88px;
+  width: 168px;
+  box-sizing: border-box;
+  border: 1px solid var(--customers-icons-color);
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+}
+
+/* hover customers */
+.customers-logo-link:hover .customers-logo-icon,
+.customers-logo-link:focus .customers-logo-icon,
+.customers-logo-link:active .customers-logo-icon {
+  fill: var(--hovercolor);
+  border-color: var(--hovercolor);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

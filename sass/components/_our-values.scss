@@ -1,0 +1,73 @@
+/* Our values section */
+.our-values__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our-values__icon-background {
+  background-color: var(--portofoliobuttonsbackgroundcolor);
+  border-radius: 4px;
+  flex-grow: 1;
+  height: 120px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.values-icons {
+  width: 64px;
+  height: 64px;
+  align-items: center;
+}
+
+.our-values {
+  padding: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.our-values__card-set {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 94px;
+  flex-direction: row;
+}
+
+.our-values__card {
+  gap: 20px;
+  text-align: left;
+  justify-content: baseline;
+  flex-direction: row;
+  margin: auto;
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 20px) / 5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.values-card h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.our-values__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondarytextcolor);
+  text-align: left;
+}

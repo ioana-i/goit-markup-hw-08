@@ -1,0 +1,61 @@
+/* What we do section */
+.what-we-do__container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  align-self: center;
+  color: var(--maintextcolor);
+  margin-bottom: 50px;
+}
+.what-we-do__img-cards {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.what-we-do__list-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 72px;
+}
+
+.services-list-item {
+  position: relative;
+}
+
+.overlay-wwd {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 25%;
+  background: rgba(47, 48, 58, 0.8);
+  opacity: 80%;
+}
+
+.overlay-wwd p {
+  align-content: center;
+  margin-top: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--whitetextcolor);
+}

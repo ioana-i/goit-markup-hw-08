@@ -1,0 +1,147 @@
+/* Nav bar */
+.page-header__container,
+.hero-section {
+  margin: 0px auto;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-section {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.nav-pages {
+  color: var(--maintextcolor);
+}
+
+.left-nav {
+  display: flex;
+  gap: 30px;
+  align-self: center;
+}
+
+.left-nav-item {
+  gap: 50px;
+  flex-grow: 1;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 31px 16px;
+  text-decoration: none;
+  position: relative;
+}
+
+.active-link,
+.left-nav-item:hover,
+.left-nav-item:focus,
+.left-nav-item:active {
+  color: var(--hovercolor);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active-link:hover,
+.active-link:focus,
+.active-link:active {
+  color: var(--hovercolor);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--hovercolor);
+  border-radius: 2px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.right-nav {
+  display: flex;
+  gap: 50px;
+  padding-left: 200px;
+  align-self: center;
+}
+
+.right-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondarytextcolor);
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+.right-nav a:hover {
+  color: var(--hovercolor);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-pages:hover,
+.nav-pages:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--hovercolor);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-contacts-icon {
+  padding-right: 10px;
+  fill: var(--secondarytextcolor);
+}
+
+.nav-contacts-icon:hover {
+  fill: var(--hovercolor);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Logos */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.top-logo {
+  color: var(--blacktextcolor);
+  margin-top: 24px;
+}
+
+.top-logo::before {
+  content: "Web";
+  color: var(--hovercolor);
+}
+
+.bottom-logo {
+  color: var(--whitetextcolor);
+}
+
+.bottom-logo::before {
+  content: "Web";
+  color: var(--hovercolor);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Common images styles */
+.what-we-do-image {
+  width: 370px;
+  height: 294px;
+}

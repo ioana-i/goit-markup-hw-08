@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 0px;
+          margin-block-end: 0px;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+body {
+  --maintextcolor: $maintextcolor;
+  --hovercolor: $hovercolor;
+  --secondarytextcolor: $secondarytextcolor;
+  --indexhero-background-color: $indexhero-background-color;
+  --whitetextcolor: $whitetextcolor;
+  --blacktextcolor: $blacktextcolor;
+  --portofoliobuttonsbackgroundcolor: $portofoliobuttonsbackgroundcolor;
+  --potfolio-item-border: $potfolio-item-border;
+  font-family: "Roboto";
+  font-style: normal;
+  --customers-icons-color: $customers-icons-color;
+  /* Margins resets */
+  /* Margins reset for inline elements */
+}
+body header {
+  border-bottom: 1px solid #eee;
+}
+body .footer {
+  --background-color: #2f303a;
+  --footerlinkcolor: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body ul,
+body p {
+  margin: 0;
+  padding: 0;
+}
+body a,
+body button,
+body br,
+body img {
+  margin-left: 0;
+  margin-right: 0;
+}
+body img {
+  display: block;
+  max-width: 100%;
+}
+
+/*  Hidden */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*  Container requirement */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Padding requirement */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.unstyled-list {
+  list-style: none;
+}
+
+.link {
+  font-style: normal;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
